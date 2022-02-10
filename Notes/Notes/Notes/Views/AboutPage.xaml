@@ -6,7 +6,7 @@
     <!-- Layout children in two rows -->
     <Grid RowDefinitions="Auto,*">
         <Image Source="xamarin_logo.png"
-               BackgroundColor="{StaticResource AppPrimaryColor}"
+               BackgroundColor="#fb8500"
                Opacity="0.85"
                VerticalOptions="Center"
                HeightRequest="64" />
@@ -18,7 +18,7 @@
                 <Label.FormattedText>
                     <FormattedString>
                         <FormattedString.Spans>
-                            <Span Text="Notes"
+                            <Span Text="Notes Password Manager"
                                   FontAttributes="Bold"
                                   FontSize="22" />
                             <Span Text=" v1.0" />
@@ -26,8 +26,8 @@
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            <Label Text="This app is written in XAML and C# with the Xamarin Platform." />
-            <Button Text="Learn more"
+            <Label Text="Alessandro Danna 4Di" />
+            <Button Text="My GitHub profile: https://github.com/AlessandroDanna"
                     Clicked="OnButtonClicked" />
         </StackLayout>
     </Grid>

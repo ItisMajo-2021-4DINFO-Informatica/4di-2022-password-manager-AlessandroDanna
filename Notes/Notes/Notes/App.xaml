@@ -26,9 +26,9 @@
             <Setter Property="FontSize"
                     Value="Medium" />
             <Setter Property="BackgroundColor"
-                    Value="{StaticResource AppPrimaryColor}" />
+                    Value="#fb8500" />
             <Setter Property="TextColor"
-                    Value="{StaticResource SecondaryColor}" />
+                    Value="#03071e" />
             <Setter Property="CornerRadius"
                     Value="5" />
         </Style>

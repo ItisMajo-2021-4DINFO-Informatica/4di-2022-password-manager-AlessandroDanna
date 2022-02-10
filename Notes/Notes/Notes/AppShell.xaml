@@ -9,13 +9,13 @@
         <Style x:Key="BaseStyle"
                TargetType="Element">
             <Setter Property="Shell.BackgroundColor"
-                    Value="{StaticResource AppPrimaryColor}" />
+                    Value="#fb8500" />
             <Setter Property="Shell.ForegroundColor"
-                    Value="{StaticResource SecondaryColor}" />
+                    Value="#03071e"/>
             <Setter Property="Shell.TitleColor"
-                    Value="{StaticResource SecondaryColor}" />
+                    Value="#03071e" />
             <Setter Property="Shell.TabBarUnselectedColor"
-                    Value="#95FFFFFF"/>
+                    Value="#03071e"/>
         </Style>
         <Style TargetType="TabBar"
                BasedOn="{StaticResource BaseStyle}" />
